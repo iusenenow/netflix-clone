@@ -8,11 +8,43 @@
   background-color: #111;
 }
 
+/* Navbar */
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+  z-index: 1;
+  transition: all 0.7s ease-in-out;
+}
+
+.nav-black {
+  background-color: #111;
+}
+
+.nav-logo {
+  width: 120px;
+  object-fit: contain;
+  position: fixed;
+  left: 20px;
+}
+
+.nav-avatar {
+  width: 30px;
+  object-fit: contain;
+  position: fixed;
+  right: 20px;
+}
+
 /* Banner */
 .banner {
   color: #fff;
   object-fit: contain;
   height: 448px;
+  margin-bottom: 20px;
 }
 
 .banner-contents {
@@ -107,4 +139,12 @@
 
 .row-posterLarge:hover {
   transform: scale(1.09);
+}
+
+/* Footer */
+.footer {
+  color: #fff;
+  text-align: center;
+  padding: 20px 0 30px 0;
+  font-size: 0.9rem;
 }
